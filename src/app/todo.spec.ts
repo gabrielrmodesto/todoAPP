@@ -6,7 +6,7 @@ describe('Todo', () => {
 	});
 	it('should accept values in the constructor', () => {
 		let todo = new Todo({
-			title: 'Hello',
+			title: 'hello',
 			complete: true
 		});
 		expect(todo.title).toEqual('hello');
